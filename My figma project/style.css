@@ -1,0 +1,159 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box 0;
+}
+body {
+    font-family: monotserrat sans-serif;  
+}
+ /* Header part */
+.header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0% auto;
+    
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header__container .logo a {
+    text-decoration: none;
+    color: rgba(74, 153, 211, 1);
+    font-size: 40px;
+    font-weight: bold;
+}
+.header__container .navlist {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+   .navlist a {
+    text-decoration: none;
+    color: rgba(38, 0, 65, 1);
+   } 
+   .navlist .active a {
+    color: rgba(74, 153, 211, 1);
+   }
+   /* main */
+.main {
+    margin-top: 50px;
+    margin-bottom: 65px;
+
+}
+.main_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+/* left */
+.main-left .title {
+    font-size:70px;
+    font-weight: 400px;
+    line-height: 70px;
+    color: rgba(38, 0, 65, 1);
+    padding-bottom: 30px;
+}
+.e-commerce {
+    color: rgb(255, 113, 113);
+    align-items: flex-start;
+    
+}
+.main-left .description {
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgba(38, 0, 65, 1);
+}
+.appstore {
+    padding-top: 60px;
+}
+
+.headercha{
+    padding-right: 120px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.header_containercha {
+    align-items: flex-start;
+}
+.headercha .titlecha {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 46px;
+    color: rgba(38, 0, 65, 1);
+    padding-right: 120px;
+    align-items: flex-start;
+}
+/* 2-qism */
+.informationni {
+  margin-top: 50px;
+  margin-bottom: 65px;
+
+}
+.container_informationcha{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.informationcha {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row;
+    
+}
+.receive {
+    font-size: 20px;
+    color: rgba(15, 0, 26, 1);
+}
+.loreminfo {
+    font-size: 16px;
+    color: rgba(15, 0, 26, 1);
+  
+}
+.learnmore {
+    color: rgba(74, 153, 211, 1);
+    font-size: 14px;
+}
+.Buy {
+    margin-bottom: 100px;
+}
+.imagereceive {
+    padding-top: 70px;
+}
+.sendlorem {
+    font-size: 16px;
+    color: rgba(15, 0, 26, 1);
+}
+.buy {
+font-size: 20px;
+color: rgba(15, 0, 26, 1);
+font-weight: 500;
+}
+.complorem{
+    font-size: 16px;
+    font-weight: 400;
+}
+.informationning {
+display: flex;
+
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+
+
+
+
+   
+   
+   
